@@ -1,0 +1,38 @@
+.banner_handle{
+    height: 548px;
+    position: relative;
+    object-fit: contain;
+    color: rgb(255, 255, 255);
+}
+.banner_contents{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 200px;
+   padding-bottom: 53px;
+}
+.banner_contents .banner_title{
+  
+    font-size: 1.5rem;
+}
+.banner_buttons{
+    display: flex;
+}
+.banner_button{
+   padding: 10px 24px;
+   border-radius: 3px;
+    margin: 10px 5px;
+    background-color: rgb(57, 55, 55);
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.062rem;
+    cursor: pointer;
+   
+}
+
+.banner_button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s ease-in;
+   
+}
+
+
